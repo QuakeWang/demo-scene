@@ -20,7 +20,7 @@ source .venv/bin/activate
 uv pip install --index-strategy unsafe-best-match \
   --index-url https://test.pypi.org/simple/ \
   --extra-index-url https://pypi.org/simple/ \
-  'vane-ai[typesafe]==0.3.0.dev7' 'typesafe-sdk==0.7.0'
+  'vane-ai[typesafe]==0.3.0.dev8' 'typesafe-sdk==0.7.0'
 uv pip install -r requirements.txt
 uv pip check
 
